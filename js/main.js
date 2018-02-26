@@ -139,3 +139,15 @@
 
 }(jQuery));
 
+/* this is the send email section*/
+$('#contactForm').submit(function(e){
+    console.log('clicked')
+    name = document.getElementById('name'),
+    email = document.getElementById('email'),
+    message = document.getElementById('message')
+
+    console.log(name)
+    
+})
+
+
